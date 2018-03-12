@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="THÔNG BÁO"
+        android:textColor="#FF0040"
+        style="?android:attr/textAppearanceLarge"
+        android:background="#2EFEF7"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        />
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:background="#181818"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Hết thời gian"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            style="?android:attr/textAppearanceMedium"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btnDong"
+                android:layout_width="130dp"
+                android:layout_height="35dp"
+                android:textColor="#ffffff"
+                android:text="Đóng"
+                android:background="@drawable/dialog_buttonpress"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

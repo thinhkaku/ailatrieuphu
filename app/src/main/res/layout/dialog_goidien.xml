@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/atp__activity_player_layout_help_call_audience_background">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:layout_marginTop="22dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginTop="30dp">
+                    <ImageButton
+                        android:id="@+id/btnBacSi"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.5"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/state_layout_help_call_1"/>
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        style="?android:attr/textAppearanceMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"
+                        android:gravity="center|top"
+                        android:text="Bác sĩ"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginTop="30dp">
+                    <ImageButton
+                        android:id="@+id/btnGiaoVien"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.5"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/state_layout_help_call_2"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"
+                        android:text="Giáo viên"
+                        android:textColor="#ffffff"
+                        android:gravity="center|top"
+                        style="?android:attr/textAppearanceMedium"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="30dp">
+                    <ImageButton
+                        android:id="@+id/btnKySu"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.5"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/state_layout_help_call_3"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"
+                        android:text="Kỹ sư"
+                        android:textColor="#ffffff"
+                        android:gravity="center|top"
+                        style="?android:attr/textAppearanceMedium"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="30dp">
+                    <ImageButton
+                        android:id="@+id/btnPhongVien"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.5"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/state_layout_help_call_4"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"
+                        android:text="Phóng viên"
+                        android:textColor="#ffffff"
+                        android:gravity="center|top"
+                        style="?android:attr/textAppearanceMedium"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btnOkHoiYKien"
+                    android:text="Ok"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/atp__dialog_confirm_background_button"
+                    android:textColor="#e2e2e2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Ý kiến chuyên gia"
+            android:background="@drawable/atp__fp_base_title_bg"
+            android:gravity="center"
+            style="?android:attr/textAppearanceMedium"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>
